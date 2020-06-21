@@ -3,7 +3,7 @@
 A weather dashboard using the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities
 
 
-
+Check it out here: https://yessyibarra.github.io/HW-6_Weather-Dashboard/
 
 
 
