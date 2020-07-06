@@ -1,6 +1,15 @@
+//Create API key here
+
+let apiKey = "4cac26404e12f5869d1e069a0063a240";
+
+//URL to query the database
+let queryURL = "https://api.openweathermap.org/data/2.5/onecall?"; 
+
+
 $(document).ready(function() {
   $("#search-button").on("click", function() {
-    var searchValue = $("#search-value").val();
+    //on button click it grabs the input value
+    var searchValue = $("#search-value").val(); // used to get the values of form elements such as inputs select an text area
 
     // clear input box
     $("#search-value").val("");
